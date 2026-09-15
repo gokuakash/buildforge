@@ -1,0 +1,29 @@
+BuildForge Construction Website
+==============================
+
+Business Name: BuildForge
+URL: https://github.com/gokuakash/buildforge (repository)
+Category: Construction & Architecture
+Date: 2026-09-16
+Model: Qwen 3.8-27B (via Cerebras WSE)
+
+Design Decisions:
+- Palette: Near-black base (#0a0a0a), gold/amber accent (#c9a227), muted gray (#6b6b6b)
+- Type: Inter (Google Font, display & body)
+- Style: Emil Kowalski luxury construction aesthetic with dark theme and gold accent
+- Sections: 10 total (Preloader, Navbar, Hero, Marquee, About, Services, Gallery, Testimonials, Contact, Footer)
+- Motion: framer-motion successor (motion.dev) via esm.sh CDN, scroll-linked parallax on hero background, staggered reveals, count-up stats
+
+Assets Used:
+- Unsplash Photos (7):
+  - Hero: photo-1527335988388-b40ee248d80c (modern construction site)
+  - About: photo-1602757115429-b4190ae087be (modern building exterior)
+  - Gallery: photo-1644221150167-fb4fafa7f411, photo-1722421492323-eaf9c401befe, photo-1613490493576-7fde63acd811, photo-1567954970774-58d6aa6c50dc, photo-1721815693498-cc28507c0ba2, photo-1768158988512-ad31657fe5b8
+- 21st.dev components: Hand-crafted in skill design language (MCP unavailable at time of build)
+
+What was skipped:
+- Google Photos store section (no brief.json provided)
+- 21st.dev MCP components (API endpoint returned invalid requests; hand-crafted instead)
+- README.md (optional, not needed for single-file deployment)
+
+Git Commit Hash: cd43479
